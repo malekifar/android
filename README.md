@@ -21,3 +21,17 @@ Now we can install oh-my-zsh
 ```zsh
 apt install curl -y && sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+###### [PowerLevel10K](https://github.com/romkatv/powerlevel10k)(recommended)
+- Installing
+```zsh
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+- Enabling
+```zsh
+sed -i 's/ZSH_THEME=".*"/ZSH_THEME="powerlevel10k\/powerlevel10k"/g' ~/.zshrc
+```
+- Configuring
+To run Powerlevel10k configuration wizard again, type the following commands:
+```zsh
+p10k configure
+```
