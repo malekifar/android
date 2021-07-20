@@ -8,13 +8,13 @@
 ## [Git](https://github.com/git/git)
 Install Git using apt-get:
 ```zsh
-pkg update -y pkg install git -y
+apt-get update -y && apt-get install git -y
 ```
 ## [ZSH](https://github.com/zsh-users/zsh)
 ### Installing
 Type the following commands to update apt and install zsh then press Enter:
 ```zsh
-apt update && apt install zsh
+apt-get update && apt-get install zsh
 ```
 ### Installing [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 Now we can install oh-my-zsh
