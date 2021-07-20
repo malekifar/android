@@ -8,7 +8,7 @@
 ## [Git](https://github.com/git/git)
 Install Git using apt-get:
 ```zsh
-apt-get update && apt-get install git
+pkg update -y pkg install git -y
 ```
 ## [ZSH](https://github.com/zsh-users/zsh)
 ### Installing
