@@ -1,9 +1,10 @@
 # # How to install Termux + Ubuntu + VScode + Anaconda + Git + ZSH
 ## Table of Contents
-- termux
+- termux 
 - ubuntu
 - vscode
 - anaconda
+- andronix
 - 
 ## [Git](https://github.com/git/git)
 Install Git using apt-get:
@@ -35,3 +36,7 @@ To run Powerlevel10k configuration wizard again, type the following commands:
 ```zsh
 p10k configure
 ```
+[<img src="https://user-images.githubusercontent.com/86642515/127040741-18c22208-bde1-455c-af11-68abcac22959.png">](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US)
+|Termux| ![Play Store](![image](https://user-images.githubusercontent.com/86642515/127040741-18c22208-bde1-455c-af11-68abcac22959.png)
+|F-Droid|
+|---|---|---|
