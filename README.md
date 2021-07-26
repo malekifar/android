@@ -36,7 +36,8 @@ To run Powerlevel10k configuration wizard again, type the following commands:
 ```zsh
 p10k configure
 ```
-[<img src="https://user-images.githubusercontent.com/86642515/127040741-18c22208-bde1-455c-af11-68abcac22959.png">](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US)
-|Termux| ![Play Store](![image](https://user-images.githubusercontent.com/86642515/127040741-18c22208-bde1-455c-af11-68abcac22959.png)
-|F-Droid|
+
+| Termux | [<img src="https://user-images.githubusercontent.com/86642515/127040741-18c22208-bde1-455c-af11-68abcac22959.png"  alt="drawing" width="50"/>](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US) |[<img src="https://user-images.githubusercontent.com/86642515/127042295-bb671f10-8a32-4b95-a82f-ba0aa3c1e26e.png"  alt="drawing" width="50"/>](https://f-droid.org/en/packages/com.termux/) |
 |---|---|---|
+
+
