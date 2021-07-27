@@ -5,7 +5,10 @@
 - vscode
 - anaconda
 - andronix
-- 
+
+```zsh
+termux-change-repo
+```
 ## [Git](https://github.com/git/git)
 Install Git using apt-get:
 ```zsh
