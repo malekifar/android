@@ -55,4 +55,4 @@ Andronix | [<img src="https://user-images.githubusercontent.com/86642515/1270560
 AnLinux | [<img src="https://user-images.githubusercontent.com/86642515/127075742-01362e8b-6485-48d1-9da8-8ecfaaff00e6.png"  alt="drawing" width="50"/>](#) |[<img src="https://user-images.githubusercontent.com/86642515/127040741-18c22208-bde1-455c-af11-68abcac22959.png"  alt="drawing" width="50"/>](https://play.google.com/store/apps/details?id=exa.lnx.a)|[<img src="https://user-images.githubusercontent.com/86642515/127042978-87c1d67c-e838-418b-b654-7e1413ebb66a.png"  alt="drawing" width="50"/>](https://github.com/EXALAB/AnLinux-App)|[<img src="https://user-images.githubusercontent.com/86642515/127042295-bb671f10-8a32-4b95-a82f-ba0aa3c1e26e.png"  alt="drawing" width="50"/>](https://f-droid.org/en/packages/exa.lnx.a/)|
 |---|---|---|---|---|
 
-<a href="example.com" target="_blank">New Tab</a>
+<a href="https://www.plantuml.com/plantuml/proxy?fmt=svg&amp;cache=no&amp;src=https://raw.githubusercontent.com/mind-maps/software/master/software-tools/software-engineering-tools.puml" target="_blank">Software Engineering Tools I am using</a>
