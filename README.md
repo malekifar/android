@@ -9,6 +9,19 @@
 ```zsh
 termux-change-repo
 ```
+You may use the following command to launch Android internal file manager which also allows to transfer files between Termux and other storage volumes:
+‍‍
+```
+am start -a android.intent.action.VIEW -d "content://com.android.externalstorage.documents/root/primary"
+
+```
+And you can also start the Termux Filepicker too:
+
+```zsh
+am start -a android.intent.action.OPEN_DOCUMENT -d /storage/emulated/0 -t '*/*'
+```
+Alternate way would be direct access to Termux home directory with Superuser permissions. That's possible only on rooted devices. However, using root to work with Termux files is not recommended way as you can easily mess up file access modes and SELinux contexts.
+
 ## [Git](https://github.com/git/git)
 Install Git using apt-get:
 ```zsh
@@ -58,4 +71,5 @@ AnLinux | [<img src="https://user-images.githubusercontent.com/86642515/12707574
 Material Files | [<img src="https://user-images.githubusercontent.com/86642515/127233274-8c712c81-5366-414d-a541-080afc9a7e04.png" target="_blank" rel="noopener" alt="drawing" width="50"/>](#) |[<img src="https://user-images.githubusercontent.com/86642515/127040741-18c22208-bde1-455c-af11-68abcac22959.png"  alt="drawing" width="50"/>](https://play.google.com/store/apps/details?id=me.zhanghai.android.files&hl=en&gl=US)|[<img src="https://user-images.githubusercontent.com/86642515/127042978-87c1d67c-e838-418b-b654-7e1413ebb66a.png"  alt="drawing" width="50"/>](https://github.com/zhanghai/MaterialFiles)|[<img src="https://user-images.githubusercontent.com/86642515/127042295-bb671f10-8a32-4b95-a82f-ba0aa3c1e26e.png"  alt="drawing" width="50"/>](https://f-droid.org/packages/me.zhanghai.android.files/)|
 |---|---|---|---|---|
 
-
+Material Files | [<img src="https://user-images.githubusercontent.com/86642515/127233274-8c712c81-5366-414d-a541-080afc9a7e04.png" target="_blank" rel="noopener" alt="drawing" width="50"/>](#) |[<img src="https://user-images.githubusercontent.com/86642515/127040741-18c22208-bde1-455c-af11-68abcac22959.png"  alt="drawing" width="50"/>](https://play.google.com/store/apps/details?id=me.zhanghai.android.files&hl=en&gl=US)|[<img src="https://user-images.githubusercontent.com/86642515/127042978-87c1d67c-e838-418b-b654-7e1413ebb66a.png"  alt="drawing" width="50"/>](https://github.com/zhanghai/MaterialFiles)|[<img src="https://user-images.githubusercontent.com/86642515/127042295-bb671f10-8a32-4b95-a82f-ba0aa3c1e26e.png"  alt="drawing" width="50"/>](https://f-droid.org/packages/me.zhanghai.android.files/)|
+|---|---|---|---|---|
