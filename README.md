@@ -40,7 +40,7 @@ cd proot-distro
 ```
 Usage example:
 ```zsh
-proot-distro install <distribution_name> # (ubuntu,debian,alpine,void,opensuse,fedoraa,rchlinux)
+proot-distro install <distribution_name> # (ubuntu,debian,alpine,void,opensuse,fedora,archlinux)
 ```
 Execute a shell within the given distribution. Example:
 ```zsh
