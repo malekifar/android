@@ -22,8 +22,8 @@ am start -a android.intent.action.OPEN_DOCUMENT -d /storage/emulated/0 -t '*/*'
 ```
 Alternate way would be direct access to Termux home directory with Superuser permissions. That's possible only on rooted devices. However, using root to work with Termux files is not recommended way as you can easily mess up file access modes and SELinux contexts.
 ## Linux
-### [Method1: PRoot Distro (Recommended](https://github.com/termux/proot-distro)
-Installing
+### [Method1: PRoot Distro (Recommended)](https://github.com/termux/proot-distro)
+
 ## Installing
 
 With package manager:
