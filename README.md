@@ -52,6 +52,11 @@ To run Powerlevel10k configuration wizard again, type the following commands:
 ```zsh
 p10k configure
 ```
+## [VHEditor](https://github.com/vhqtvn/VHEditor-Android)
+This is a alternative for VSCode
+You can download from [here](https://github.com/vhqtvn/VHEditor-Android/releases)
+built-in terminal in editor not show anything
+for fix this: Change VSCode's setting "Terminal > Integrated > Gpu Acceleration" to off or canvas.
 
 Termux | [<img src="https://user-images.githubusercontent.com/86642515/127042621-9a2dfcd9-9559-487c-8f02-06ccc34c63fe.png" target="_blank" rel="noopener" alt="drawing" width="50"/>](https://termux.com/) |[<img src="https://user-images.githubusercontent.com/86642515/127040741-18c22208-bde1-455c-af11-68abcac22959.png"  alt="drawing" width="50"/>](https://play.google.com/store/apps/details?id=com.termux&hl=en&gl=US)|[<img src="https://user-images.githubusercontent.com/86642515/127042978-87c1d67c-e838-418b-b654-7e1413ebb66a.png"  alt="drawing" width="50"/>](https://github.com/termux)|[<img src="https://user-images.githubusercontent.com/86642515/127042295-bb671f10-8a32-4b95-a82f-ba0aa3c1e26e.png"  alt="drawing" width="50"/>](https://f-droid.org/en/packages/com.termux/)|
 |---|---|---|---|---|
