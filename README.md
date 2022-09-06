@@ -27,30 +27,39 @@ Installing
 ## Installing
 
 With package manager:
-```
+```zsh
 pkg install proot-distro
 ```
 
 With git:
-```
+```zsh
 pkg install git
 git clone https://github.com/termux/proot-distro
 cd proot-distro
 ./install.sh
 ```
 Usage example:
-```
-proot-distro install distribution_name(ubuntu,debian,alpine,
+```zsh
+proot-distro install <distribution_name> # (ubuntu,debian,alpine,void,opensuse,fedoraa,rchlinux)
 ```
 Execute a shell within the given distribution. Example:
-```
-proot-distro login debian
+```zsh
+proot-distro login <distribution_name>
 ```
 
 Execute a shell as specified user in the given distribution:
+```zsh
+proot-distro login --user admin <distribution_name>
 ```
-proot-distro login --user admin debian
+Set password for root with
+```zsh
+passwd
 ```
+Add user with 
+```zsh
+adduser <user_name>
+```
+
 ### [Method2: AnLinux](https://github.com/EXALAB/AnLinux-App)
 AnLinux | <img src="https://user-images.githubusercontent.com/86642515/127075742-01362e8b-6485-48d1-9da8-8ecfaaff00e6.png"  alt="drawing" width="50"/>|[<img src="https://user-images.githubusercontent.com/86642515/127040741-18c22208-bde1-455c-af11-68abcac22959.png"  alt="drawing" width="50"/>](https://play.google.com/store/apps/details?id=exa.lnx.a)|[<img src="https://user-images.githubusercontent.com/86642515/127042978-87c1d67c-e838-418b-b654-7e1413ebb66a.png"  alt="drawing" width="50"/>](https://github.com/EXALAB/AnLinux-App)|[<img src="https://user-images.githubusercontent.com/86642515/127042295-bb671f10-8a32-4b95-a82f-ba0aa3c1e26e.png"  alt="drawing" width="50"/>](https://f-droid.org/en/packages/exa.lnx.a/)|
 |---|---|---|---|---|
