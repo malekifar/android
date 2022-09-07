@@ -42,7 +42,7 @@ Usage example:
 ```zsh
 proot-distro install <distribution_name> # (ubuntu,debian,alpine,void,opensuse,fedora,archlinux)
 ```
-Set linux distribution to default
+If you want to set linux distribution to default terminal:
 ```zsh
 echo "proot-distro login <distribution_name>" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 ```
