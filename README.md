@@ -24,7 +24,7 @@ Alternate way would be direct access to Termux home directory with Superuser per
 ## Linux
 ### [Method1: PRoot Distro (Recommended)](https://github.com/termux/proot-distro)
 
-## Installing
+#### Installing
 
 With package manager:
 ```zsh
@@ -41,6 +41,10 @@ cd proot-distro
 Usage example:
 ```zsh
 proot-distro install <distribution_name> # (ubuntu,debian,alpine,void,opensuse,fedora,archlinux)
+```
+Set linux distribution to default
+```zsh
+echo "proot-distro login <distribution_name>" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 ```
 Execute a shell within the given distribution. Example:
 ```zsh
