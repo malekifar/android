@@ -99,6 +99,57 @@ To run Powerlevel10k configuration wizard again, type the following commands:
 ```zsh
 p10k configure
 ```
+## Python
+### Add PPA for Python old versions
+The old versions of Python such as 3.9, 3.8, 3.7, and older are not available to install using the default system repository of Ubuntu 22.04 LTS Jammy JellyFish or 20.04 Focal Fossa. Hence, we need to add a PPA offered by the “deadsnakes” team to get the old archived Python versions easily.
+```zsh
+apt update && apt upgrade
+apt install software-properties-common
+add-apt-repository ppa:deadsnakes/ppa
+```
+### Installing python(version)
+Well, once you have confirmed the version you want of Python is available to install using the added repository, next use the given command syntax to install it.
+
+For example, you want to install version 3.7
+```zsh
+apt install python3.8
+```
+### Set the default Python version
+If you have installed multiple versions of Python and want to set any of them as the default version of the system then that can be possible as well. For example, you have the latest version of Python 3.10 (was while doing this article) and also have installed python 3.9 and 3.8; now to set any of them are system’s default use Update-alternatives command:
+
+Check what python versions are available on your systems:
+```zsh
+ls /usr/bin/python*
+```
+To know whether any version is configured as python alternatives or not. For that run:
+```zsh
+update-alternatives --list python
+```
+If the output is:
+
+“update-alternatives: error: no alternatives for python”
+
+Then it means there are no alternatives that have been configured, hence let’s do some.
+
+Here we are setting up two versions as alternatives, later we will be able to choose between them to set one of them as the system default one.
+```zsh
+update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1
+```
+```zsh
+update-alternatives --install /usr/bin/python python /usr/bin/python3.8 2
+```
+```zsh
+update-alternatives --install /usr/bin/python python /usr/bin/python3.7 3
+```
+### Switch the default Python version 
+```zsh
+update-alternatives --config python
+```
+This time you will see several options including Python 3.9 and 3.8 and 3.7. Enter the Selection number of the Python you want to set as the system’s default one. For example, here Python3.7 is at number 3, hence we type 3 and Enter key.\
+When you check the version of Python this time, you will have 3.7. For that use:
+```zsh
+python -V
+```
 ## Jupyter
 
 ## VSCode
